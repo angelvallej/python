@@ -1,6 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 #UNAM-CERT
+#Valle juarez Pedro Ángel
+#Miguel Angel González Ramírez
+
 import sys
 import xml.etree.ElementTree as ET
 import matplotlib.pyplot as pyt
