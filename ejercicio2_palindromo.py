@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 #UNAM-CERT
+#Valle Juarez Pedro Angel
 
 
 def palindromo(es_palindromo):
