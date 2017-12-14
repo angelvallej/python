@@ -1,6 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 #UNAM-CERT
+#Valle Juarez Pedro Ángel
+#Miguel Angel González Ramírez
+
 import sys
 import optparse
 from requests import get
@@ -91,10 +94,10 @@ if __name__ == '__main__':
         for passwdd in lstPass:
 	    for usser in lstUsr:
                 if opts.verbose:
-                    print '\nUtilizando:\tUsuario:%s\tConstrase�a: %s\nEn host:%s\tPuerto:%s' % (usser,passwdd,opts.server,opts.port)
+                    print '\nUtilizando:\tUsuario:%s\tConstraseña: %s\nEn host:%s\tPuerto:%s' % (usser,passwdd,opts.server,opts.port)
                 if opts.report:
                     reporte = open(opts.report,'a+')
-                    reporte.write('\nUtilizando:\tUsuario:%s\tConstrase�a: %s\nEn host:%s\tPuerto:%s' % (usser,passwdd,opts.server,opts.port))
+                    reporte.write('\nUtilizando:\tUsuario:%s\tConstraseña: %s\nEn host:%s\tPuerto:%s' % (usser,passwdd,opts.server,opts.port))
 
                 if opts.digest:
                     req = dRequest(url,usser,passwdd)
