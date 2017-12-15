@@ -51,7 +51,7 @@ def genera_palabras(cad):
 
 def genera_dicc(entrada,salida):
     """
-    Funcion que lee las posibles palabras que pueden formar una contraseña
+    Funcion que lee las posibles palabras que pueden formar una contraseÃ±a
     y genera combinaciones entre las mismas
     Argumentos:
         Archivo de entrada (str)
@@ -78,3 +78,5 @@ if __name__ == '__main__':
         printError('Indicar archivo a leer y archivo de reporte.', True)
     else:
 	genera_dicc(sys.argv[1],sys.argv[2])
+	print "hola"
+	
